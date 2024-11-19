@@ -1,0 +1,29 @@
+# Data Processing & Visualization
+pandas==1.5.3
+numpy==1.23.5
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Scikit-learn for machine learning models (classification, regression)
+scikit-learn==1.3.0
+
+# XGBoost for classification and regression models
+xgboost==1.8.0
+
+# Statsmodels for time series analysis (ARIMA, SARIMAX)
+statsmodels==0.14.0
+
+# Joblib for saving models
+joblib==1.3.1
+
+# Scipy for additional scientific computations (e.g., ADF test)
+scipy==1.10.0
+
+# Date and Time Handling
+python-dateutil==2.8.2
+
+# Jupyter (if running in a Jupyter notebook environment)
+jupyter==1.0.0
+
+# Optional: If you're using virtual environments or deploying, consider adding:
+virtualenv==20.17.1

@@ -1,0 +1,37 @@
+Defect Rate Prediction Project/
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── data_eda.py
+│   ├── regression_model_trainer.py
+│   ├── classification_model_trainer.py
+│   └── forecasting_model_trainer.py
+│
+├── data/
+│   ├── raw/
+│   │   ├── Step1_Mount_Terminals.csv
+│   │   ├── Step1_Mount_Terminal_Resin.csv
+│   │   ├── Step2_Wind_Wire.csv
+│   │   ├── Step3_Peel_Wire.csv
+│   │   ├── Step4_Check_Alignment.csv
+│   │   └── Defect Rates.csv
+│   │
+│   └── processed/
+│       
+│
+├── results/
+│   ├── forecasting_results/
+│   ├── regression_results/
+│   ├── classification_results/
+│   └── eda/
+│
+├── models/
+│   ├── forecast_models/
+│   ├── regression_models/
+│   └── classification_models/
+│
+├── main.py
+└── requirements.txt
+└── Resource/
+    ├── Defect Rate Prediction Project_Dictionary.txt
+    ├── Defect Rate Early Identification Documentation.pdf
