@@ -1,5 +1,60 @@
 # Defect_Rate_Early_Identification
 
+
+## Table of Contents
+#### 1. Project Structure
+#### 2. Setup Instructions
+#### 3. Dataset Description
+#### 4. Workflow
+  Data Preparation
+  
+  Exploratory Data Analysis
+  
+  Model Building
+  
+  Time-Series Forecasting
+  
+#### 5. Results
+#### 6. Resources
+
+## 1. Project Structure
+    Defect Rate Prediction Project/
+    │
+    ├── src/
+    │   ├── data_preprocessing.py             # Handles data cleaning and preparation
+    │   ├── data_eda.py                       # Performs exploratory data analysis
+    │   ├── regression_model_trainer.py       # Trains regression models for defect prediction
+    │   ├── classification_model_trainer.py   # Trains classification models for defect category prediction
+    │   └── forecasting_model_trainer.py      # Implements ARIMA/SARIMAX models for forecasting defect rates
+    │
+    ├── data/
+    │   ├── raw/                              # Contains raw input data
+    │   │   ├── Step1_Mount_Terminals.csv
+    │   │   ├── Step1_Mount_Terminal_Resin.csv
+    │   │   ├── Step2_Wind_Wire.csv
+    │   │   ├── Step3_Peel_Wire.csv
+    │   │   ├── Step4_Check_Alignment.csv
+    │   │   └── Defect Rates.csv
+    │   └── processed/                        # Contains preprocessed datasets
+    │
+    ├── results/
+    │   ├── forecasting_results/              # Time-series forecasting outputs
+    │   ├── regression_results/               # Regression model outputs
+    │   ├── classification_results/           # Classification model outputs
+    │   └── eda/                              # EDA visualizations
+    │
+    ├── models/
+    │   ├── forecast_models/                  # Stored forecasting models
+    │   ├── regression_models/                # Stored regression models
+    │   └── classification_models/            # Stored classification models
+    │
+    ├── main.py                               # Main script to execute the project workflow
+    ├── requirements.txt                      # Dependencies for the project
+    └── Resource/
+        ├── Defect Rate Prediction Project_Dictionary.txt
+        ├── Defect Rate Early Identification Documentation.pdf
+
+
 ## Dataset Description
 
 #### Raw Data
